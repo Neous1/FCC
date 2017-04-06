@@ -1,0 +1,361 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"large",
+				"large-9"
+			],
+			[
+				"v",
+				"video_detail"
+			],
+			[
+				"t",
+				"thumbnails"
+			],
+			[
+				"vid",
+				"videoItems"
+			],
+			[
+				"Compo",
+				"component"
+			],
+			[
+				"Com",
+				"component"
+			],
+			[
+				"A",
+				"API_KEY"
+			],
+			[
+				"pr",
+				"props"
+			],
+			[
+				"on",
+				"onInputChange"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"re",
+				"regexPat"
+			],
+			[
+				"a",
+				"A-Za-z"
+			],
+			[
+				"wra",
+				"flex-wrap"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"fla",
+				"Flask"
+			],
+			[
+				"padd",
+				"padding-top"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/iMac-3TB/Users/Yvon/dev/ReduxSimpleStarter-1/style/style.css",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/ReduxSimpleStarter-1/src/components/search_bar.js",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/3masSplash/foundation/styling.html",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/3masSplash/foundation/css/app.css",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/3masSplash/foundation/visibility.html",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/3masSplash/foundation/thumbnails.html",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/3masSplash/foundation/panels.html",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/3masSplash/foundation/typography.html",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/3masSplash/foundation/source-order.html",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/3masSplash/foundation/nested-grid.html",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/ReduxSimpleStarter-1/src/index.js",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/3masSplash/foundation/grid.html",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/3masSplash/foundation/chap-2-challenge.html",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/3masSplash/foundation/chap-2-solution.html",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/3masSplash/foundation/block-grid.html",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/ReduxSimpleStarter-1/src/components/video_detail.js",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/ReduxSimpleStarter-1/src/components/video_list_item.js",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/ReduxSimpleStarter-1/src/components/video_list.js",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/3masSplash/index.html",
+		"/Volumes/iMac-3TB/Users/Yvon/WDBC/JQuery/ToDo/assets/css/jqueryTodo.css",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/Misc Tutorials/RegEx - Derek Banas/regex - form validation.html",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/ReduxSimpleStarter-1/index.html",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/ReduxSimpleStarter/src/components/app.js",
+		"/Volumes/iMac-3TB/Users/Yvon/Desktop/ls.js",
+		"/Volumes/iMac-3TB/Users/Yvon/WDBC/JQuery/ToDo/jqueryTodo.html",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/ReduxSimpleStarter/index.html",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/ReduxSimpleStarter/src/index.js",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/Misc Tutorials/RegEx - Derek Banas/RegEx.txt",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/freecodecamp/Tribute to John Coltrane/assets/css/coltrane.css",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/freecodecamp/Tribute to John Coltrane/coltrane.html",
+		"/Volumes/iMac-3TB/Users/Yvon/WDBC/JQuery/ToDo/assets/js/jqueryTodo.js",
+		"/Volumes/iMac-3TB/Users/Yvon/WDBC/JQuery/ToDo/assets/js/lib/jquery-3.1.1.js",
+		"/Volumes/iMac-3TB/Users/Yvon/WDBC/JQuery/ToDo/jqueryTodo.css",
+		"/Volumes/iMac-3TB/Users/Yvon/WDBC/JQuery/ToDo/jqueryTodo.js",
+		"/Volumes/iMac-3TB/Users/Yvon/WDBC/JQuery/Jquery Effects/jqueryEffects.js",
+		"/Volumes/iMac-3TB/Users/Yvon/WDBC/JQuery/jQueryDemo.html",
+		"/Volumes/iMac-3TB/Users/Yvon/WDBC/DOM/ColorGame/colorGame.html",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/freecodecamp/ChunkMonkey.js",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/freecodecamp/Mutations/mutations.js",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/freecodecamp/Mutations/ChunkMonkey.html",
+		"/Volumes/iMac-3TB/Users/Yvon/WDBC/DOM/changeColor.html",
+		"/Volumes/iMac-3TB/Users/Yvon/WDBC/DOM/ColorGame/.git/COMMIT_EDITMSG",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/freecodecamp/TitleCaseASentence/TitleCaseASentence_Alternative.js",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/freecodecamp/TitleCaseASentence/TitleCaseASentence.js",
+		"/Volumes/iMac-3TB/Users/Yvon/my-python-project/mygreeting.py",
+		"/Volumes/iMac-3TB/Users/Yvon/my-python-project/myBlog.py",
+		"/Volumes/iMac-3TB/Users/Yvon/Desktop/blankpage.html",
+		"/Volumes/iMac-3TB/Users/Yvon/dev/freecodecamp/TilteCaseASentence.js",
+		"/Volumes/iMac-3TB/Users/Yvon/WDBC/DOM/scoreKeeper/scorekeeper.js",
+		"/Volumes/iMac-3TB/Users/Yvon/WDBC/DOM/scoreKeeper/scorekeeper.css",
+		"/Volumes/iMac-3TB/Users/Yvon/WDBC/DOM/scoreKeeper/scoreKeeper.html",
+		"/Volumes/iMac-3TB/Users/Yvon/version-control/asteroids/game.js",
+		"/Volumes/iMac-3TB/Users/Yvon/Sites/WDBC/javascript/whileLoops.js",
+		"/Volumes/iMac-3TB/Users/Yvon/Sites/WDBC/javascript/whileLoops.html",
+		"/Volumes/iMac-3TB/Users/Yvon/Sites/WDBC/javascript/script.js",
+		"/Volumes/iMac-3TB/Users/Yvon/Sites/WDBC/javascript/index.html",
+		"/Volumes/iMac-3TB/Users/Yvon/version-control/reflections/lesson_2_reflections.txt",
+		"/Volumes/iMac-3TB/Users/Yvon/version-control/reflections/.git/COMMIT_EDITMSG",
+		"/Volumes/iMac-3TB/Users/Yvon/version-control/asteroids/.git/COMMIT_EDITMSG",
+		"/Volumes/iMac-3TB/Users/Yvon/version-control/pappu-pakia/utils.js",
+		"/Volumes/iMac-3TB/Users/Yvon/version-control/pappu-pakia/b/js/utils.js",
+		"/Volumes/iMac-3TB/Users/Yvon/version-control/pappu-pakia/a/js/utils.js",
+		"/Volumes/iMac-3TB/Users/Yvon/.bash_profile",
+		"/Volumes/iMac-3TB/Users/Yvon/Sites/WDBC/gallery.css",
+		"/Volumes/iMac-3TB/Users/Yvon/version-control/reflections/lesson_1_reflections.txt",
+		"/Volumes/iMac-3TB/Users/Yvon/Sites/WDBC/gallery.html",
+		"/Volumes/iMac-3TB/Users/Yvon/Sites/WDBC/grid.html",
+		"/Volumes/iMac-3TB/Users/Yvon/Sites/WDBC/navbar.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"button",
+			"images",
+			"small",
+			"embed",
+			"\\[1]\\(",
+			"jpg",
+			">\n",
+			"Skitlles",
+			"  <li>Newt</li>",
+			">\n",
+			"Newt",
+			"li",
+			"Newt",
+			"Mutations",
+			"col-lg-4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"medium"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "testing.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
