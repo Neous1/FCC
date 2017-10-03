@@ -1,0 +1,96 @@
+var btnNum = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, .]
+var btnOperator [+, -, /, *, AC, CE, =, , fn, %]
+
+
+function result(){
+
+}
+
+on load result ="";
+AC is set to true
+C is set to true
+
+when user clicks a button 
+    if result is "" && the "-" btn is pressed 
+        set result to negative
+
+    if result is 0 && the btn pressed is . or - or 0 or 1 or 2 .....
+        resut += btn pressed
+
+
+
+
+
+function Display(){
+    check which btn was clicked
+    if it's not AC CE or =
+    then display the button's output.
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+JS calculator.
+
+Var memory
+Var num1
+Var operator
+Var num2;
+Var result 
+ Be T and AC  trigger AllClear() 	memory = “”;
+	num = “”;
+	Operator = “”;
+	Num2 = “”;
+	Value of screen is set to “”;
+ BtnC   	Call clearlastEntry()
+
+Btn /
+	Trigger function divide ()
+		If (num1 = “”) then
+		Concatenate digits in Memory
+		Num1 = memory;
+Memory = “/”;
+Mini display = [num1 / ]
+		Else
+			Num2 = memory
+					Memory = “”;
+Set num1 to parsefloat
+Set num2 to parsefloat
+Result = num1 / num2
+Return result
+Num1 = result;	
+Mini display = [num1];				
+		End
+
+Btn X
+	Trigger function multiplication ()
+		Concatenate digits in Memory
+		Add multiplication operator memory
+		end
+
+Btn +
+	Trigger function addition ()
+		Concatenate digits in Memory
+		Add addition operator memory
+		end
+
+
+
+
+Btn -
+	Trigger function subtraction ()
+		Concatenate digits in Memory
+		Add subtraction operator memory
+		End
+
+Btn =
+	Trigger function equal()
+		Concatenate digital memory 		Push memory to  Number two 		Call operator function 		num1 = parseFloat(num1);
+		Num2 = parseFloat(num2);
+		Compute equation
+
+
+Btn .
+	Display .
+	If [.] not in memory 
+		Add to memory
+	Else
+		Do nothing
