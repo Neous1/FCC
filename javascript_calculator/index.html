@@ -10,37 +10,48 @@
 
 <body>
 	<div class="container">
-		<table class="table table-bordered table-sm">
-			<tr>
-				<td colspan="4">Row #</td>
-				<!-- <td rowspan="2">Row #</td> -->
+		<div id="calculator">
+			<div>
+				<input  class="disp" type="text" readonly name="" value="" id="bigDisplay" >		
+			</div>
+			<div>				
+				<input class="disp" type="text" readonly name="" value="" id="smallDisplay">
+			</div>
+			<div>
+				<input class="btn operator" type="button" name="" value="AC">
+				<input class="btn operator" type="button" name="" value="<--">
+				<input class="btn operator" type="button" name="" value="/">
+				<input class="btn operator" type="button" name="" value="X">
+			</div>
+			<div>
+				<input class="btn" type="button" name="" value="7" >
+				<input class="btn" type="button" name="" value="8">
+				<input class="btn" type="button" name="" value="9">
+				<input class="btn operator" type="button" name="" value="-">
+			</div>
+			<div>
+				<input class="btn" type="button" name="" value="4">
+				<input class="btn" type="button" name="" value="5">
+				<input class="btn" type="button" name="" value="6">
+				<input class="btn operator" type="button" name="" value="+">
+			</div>
+			<div>
+				<input class="btn" type="button" name="" value="3">
+				<input class="btn" type="button" name="" value="2">
+				<input class="btn" type="button" name="" value="1">
+				<input id="btnEq" class="btn" type="button" name="" value="=">
+			</div>
+			<div>
+<!-- 				
+					<input id="btnEq" class="btn" type="button" name="" value="="> -->
+			</div>
+			<div>
+				<input id="btn0" class="btn" type="button" name="" value="0" width="140px">
+				<input class="btn" type="button" name="" value=".">
+				<!-- <input class="btn" type="button" name="" value="X"> -->
+			</div>
 
-			</tr>
-			<tr class="tableRow">					
-				<td  ><input type="button" value="7"></td>
-				<td><input type="button" value="8"></td>
-				<td><input type="button" value="9"></td>
-				<td><input type="button" value="-"></td>
-			</tr>
-			<tr >					
-				<td><input type="button" value="4"></td>
-				<td><input type="button" value="5"></td>
-				<td><input type="button" value="6"></td>
-				<td><input type="button" value="+"></td>
-			</tr>
-			<tr >					
-				<td><input type="button" value="1"></td>
-				<td><input type="button" value="2"></td>
-				<td><input type="button" value="3"></td>
-				<td rowspan="2"><input type="button" value="X"></td>
-			</tr>
-			<tr >					
-				<td colspan="2"><input type="button" value="0"></td>
-				<td><input type="button" value="9"></td>
-				<!-- <td><input type="button" value="X"></td> -->
-			</tr>
-
-		</table>
+		</div>
 
 
 	</div>
