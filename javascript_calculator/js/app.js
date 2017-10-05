@@ -50,12 +50,12 @@ for (var j = 0; j < operators.length; j++) {
     // };
 }
 
-function allClear() {
-    // console.log("33 . ", document.getElementById("smallDisplay").value)
-    memory = [];
-    document.getElementById("smallDisplay").value = "";
+// function allClear() {
+//     // console.log("33 . ", document.getElementById("smallDisplay").value)
+//     memory = [];
+//     document.getElementById("smallDisplay").value = "";
 
-}
+// }
 
 
 // function addition() {
