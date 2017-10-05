@@ -6,10 +6,12 @@ var bigDisplay = document.getElementById("bigDisplay")
 var buttons = document.getElementsByClassName("btn");
 
 for (var i=0; i<buttons.length;i++){
-
-    if(buttons[i].value !== "AC" && buttons[i].value!=="<--"){
+// Display -------Display------Display -------Display
+    if(buttons[i].value !== "AC" && buttons[i].value!=="<--"&& buttons[i].value!=="="){
         buttons[i].addEventListener("click", function(){
             memory.push(this.value)
+            smallDisplay.value += this.value;
+            bigDisplay.value += this.value;
             console.log("13. ", memory)
         });
     };
@@ -25,12 +27,21 @@ for (var i=0; i<buttons.length;i++){
     };
     if(buttons[i].value == "<--"){
         buttons[i].addEventListener("click", function(){
-            console.log(this.value);
+            console.log("mem was ", memory);
+            //  memory=memory.slice(1,-1);
+            memory.pop()
+            console.log("new mem: ", memory)
+            smallDisplay.value = memory.join("");
+            bigDisplay.value = memory.join("");
         });
     };
     if(buttons[i].value == "/"){
         buttons[i].addEventListener("click", function(){
-            console.log(this.value);
+            //num1 = parseFloat(memory.join(""))
+            //don't display "/" unless there's already a number in display
+            //don't display "/" if the last entry was a "/"
+            //a number divided by 0 should return not a number. 
+            
         });
     };
     if(buttons[i].value == "X"){
@@ -95,7 +106,11 @@ for (var i=0; i<buttons.length;i++){
     };
     if(buttons[i].value == "="){
         buttons[i].addEventListener("click", function(){
-            console.log(this.value);
+            // console.log('memory.join(""): '), 
+            console.log('memory.join(""): ', typeof memory.join(""));
+            console.log('result: ', result);
+            result = eval(memory.join(""));
+            console.log("result ", result);
         });
     };
     if(buttons[i].value == "0"){
@@ -108,9 +123,13 @@ for (var i=0; i<buttons.length;i++){
             console.log(this.value);
         });
     };
-}
-// function allClear(){
-//     var smallDisplay= document.getElementById("smallDisplay").value="";
-//     memory=[], num1=0, num2=0, result = 0;
-//     console.log(smallDisplay);
-// }
+
+
+    }
+    // var operators = document.getElementsByClassName("operator");
+    // for(var j= 0; j<operators.length; j++){
+    //     if(buttons[i]=="/" || operators[j]=="/"){
+    //         console.log("Double //")
+    //     };
+    // }
+
