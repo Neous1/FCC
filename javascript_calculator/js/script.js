@@ -44,7 +44,7 @@ for (var i=0; i<buttons.length;i++){
             
         });
     };
-    if(buttons[i].value == "X"){
+    if(buttons[i].value == "*"){
         buttons[i].addEventListener("click", function(){
             console.log(this.value);
         });
@@ -106,11 +106,15 @@ for (var i=0; i<buttons.length;i++){
     };
     if(buttons[i].value == "="){
         buttons[i].addEventListener("click", function(){
+            //if last entry is an operator or second to last entry is an +  - / X 
+            //remove it before calling eval()
+            
             // console.log('memory.join(""): '), 
             console.log('memory.join(""): ', typeof memory.join(""));
             console.log('result: ', result);
             result = eval(memory.join(""));
             console.log("result ", result);
+            bigDisplay.value = result
         });
     };
     if(buttons[i].value == "0"){
