@@ -106,15 +106,28 @@ for (var i=0; i<buttons.length;i++){
     };
     if(buttons[i].value == "="){
         buttons[i].addEventListener("click", function(){
+            //print last entry on memory
+            // memory.slice(-1)[0]=="+"
+            // console.log('last entry: ', memory.slice(-1)[0]=="+");
+            if(memory.slice(-1)[0]!== "+"){
+                result = eval(memory.join(""));
+                console.log("result ", result);
+                bigDisplay.value = result
+            }
+            if(memory.slice(-1)[0]== "+"){
+                memory.pop()
+                result = eval(memory.join(""));
+                console.log("result ", result);
+                bigDisplay.value = result
+            }
+            
+            console.log('last entry: ', memory.slice(-1)[0]);
+
             //if last entry is an operator or second to last entry is an +  - / X 
             //remove it before calling eval()
             
-            // console.log('memory.join(""): '), 
-            console.log('memory.join(""): ', typeof memory.join(""));
-            console.log('result: ', result);
-            result = eval(memory.join(""));
-            console.log("result ", result);
-            bigDisplay.value = result
+
+
         });
     };
     if(buttons[i].value == "0"){
@@ -130,10 +143,5 @@ for (var i=0; i<buttons.length;i++){
 
 
     }
-    // var operators = document.getElementsByClassName("operator");
-    // for(var j= 0; j<operators.length; j++){
-    //     if(buttons[i]=="/" || operators[j]=="/"){
-    //         console.log("Double //")
-    //     };
-    // }
+
 
